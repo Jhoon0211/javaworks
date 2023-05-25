@@ -10,6 +10,7 @@ public class Car {
 	}
 	
 	String carInfo() {
-		return "브랜드: " + brand + "," + " 배기량:" + cc;
+		return "브랜드 : " + brand + "," + " 배기량 : " + cc;
 	}
 }
+
