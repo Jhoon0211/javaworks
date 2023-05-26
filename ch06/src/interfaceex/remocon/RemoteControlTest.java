@@ -7,7 +7,7 @@ public class RemoteControlTest {
 		RemoteControl rcTV = new Television();
 		
 		rcTV.turnOn();
-		rcTV.setVolume(8);
+		rcTV.setVolume(-8);
 		rcTV.turnOff();
 	}
 
