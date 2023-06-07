@@ -12,11 +12,15 @@ public class Book {
 		this.bookTitle = bookTitle;
 	}
 
+	public void showInfo() {
+		System.out.println(bookNumber + "," + bookTitle);
+	}
+	
 	// toString 재정의
-	@Override
+	/* @Override
 	public String toString() {
 		return bookNumber + ", " + bookTitle;
-	}
+	}*/ 
 
 	// hashCode() 재정의
 	@Override
